@@ -1,4 +1,4 @@
-Tasks = new Mongo.Collection("tasks");
+Items = new Mongo.Collection("nabe");
 
 if (Meteor.isClient) {
   Meteor.startup(function () {
