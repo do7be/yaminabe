@@ -124,3 +124,41 @@ header .hide-completed {
     padding-bottom: 5px;
   }
 }
+
+
+.popItem-enter {
+  opacity: 0.01;
+}
+
+.popItem-enter.popItem-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.popItem-leave {
+  opacity: 0;
+}
+
+.popItem-leave.popItem-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.item-list-enter {
+  opacity: 0.01;
+}
+
+.item-list-enter.item-list-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.item-list-leave {
+  opacity: 1;
+}
+
+.item-list-leave.item-list-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
